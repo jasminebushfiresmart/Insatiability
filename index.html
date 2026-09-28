@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/ds-bundle.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #f3f2f2; }
+  img { -webkit-user-drag: none; user-select: none; }
+  [data-om-art] { mix-blend-mode: multiply; }
+  a { color: #8f6526; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: #b68235; }
+  button:focus-visible, [data-om-btn]:focus-visible { outline: 2px solid #b68235; outline-offset: 2px; }
+</style>
+</helmet>
+
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#f3f2f2"></rect><rect x="36" y="30" width="48" height="60" fill="none" stroke="#b68235" stroke-width="1.5"></rect><text x="60" y="70" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#201f1d">M</text></svg>
+</template>
+
+<div data-om-root="" style="position: relative; min-height: 100vh; background: #f3f2f2; color: #201f1d; font-family: 'Lora', Georgia, serif; font-size: 1.0625rem; line-height: 1.75; text-align: justify; hyphens: auto; padding: 7vh 6vw 12vh; box-sizing: border-box;">
+
+  <div data-om-toggle="" style="display: none; position: fixed; top: 18px; right: 20px; z-index: 40; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase; color: #6b6863; background: rgba(243,242,242,0.9); border: 1px solid rgba(32,31,29,0.18); border-radius: 4px; padding: 7px 13px; cursor: pointer; white-space: nowrap; backdrop-filter: blur(3px);">Read as one page</div>
+
+  <header data-om-titlecard="" style="max-width: 34rem; margin: 0 auto 5rem; text-align: center;">
+    <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.82rem; letter-spacing: 0.22em; text-transform: uppercase; color: #b68235; font-variant-numeric: tabular-nums;">A short story</div>
+    <h1 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: clamp(2.6rem, 7vw, 4rem); line-height: 1.05; margin: 0.5rem 0 0.75rem;">Insatiability</h1>
+    <div style="width: 56px; height: 1px; background: #b68235; margin: 0 auto 0.9rem;"></div>
+    <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.05rem; color: #201f1d; letter-spacing: 0.04em;">By Jasmine Peart</div>
+    <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.95rem; letter-spacing: 0.06em; margin-top: 0.35rem;"><a href="https://mariestudio.com.au" target="_blank" rel="noopener">mariestudio.com.au</a></div>
+  </header>
+
+  <section data-part="0">
+    <div data-beat="" data-titlebeat="1" style="max-width: 40rem; margin: 0 auto 3.4rem; text-align: center;">
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.82rem; letter-spacing: 0.22em; text-transform: uppercase; color: #b68235;">A short story</div>
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(3rem, 9vw, 5.4rem); line-height: 1.05; margin: 0.6rem 0 1rem;">Insatiability</div>
+      <div style="width: 56px; height: 1px; background: #b68235; margin: 0 auto 1.1rem;"></div>
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.15rem; letter-spacing: 0.04em;">By Jasmine Peart</div>
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1rem; letter-spacing: 0.06em; margin-top: 0.4rem;"><a href="https://mariestudio.com.au" target="_blank" rel="noopener">mariestudio.com.au</a></div>
+      <img src="art/kingfisher-sm.webp" alt="Watercolour kingfisher on a branch with a rope noose drawn around its neck" style="display: block; width: auto; max-width: min(100%, 11rem); max-height: 26vh; height: auto; margin: 1.3rem auto 0; mix-blend-mode: multiply;">
+    </div>
+    <div data-beat="" style="max-width: 40rem; margin: 0 auto 2.2rem; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(2.1rem, 5.4vw, 3.9rem); line-height: 1.14; text-align: center; text-wrap: pretty;">How I had waited for this moment.</div>
+    <div data-beat="" style="max-width: 40rem; margin: 0 auto 3.4rem; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(2.1rem, 5.4vw, 3.9rem); line-height: 1.14; text-align: center; text-wrap: pretty;">And how the moment was incredibly disappointing.</div>
+  </section>
+
+  <section data-part="1">
+    <img data-om-art="" src="art/wash-stage-sm.webp" alt="" data-wash="1" data-l="0" data-t="0" data-w="100vw" data-op="0.75" style="display: none;">
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">The alluring shine it had in my mind had not translated to reality. The lights shining upon my lectern were a shade too dim. <br>And my emerald dress, ordered months in advance, seemed less the colour of emerald, and more like the colour of a muddy swamp.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I swallowed a mouth full of bile. I could see the headline tomorrow morning:</div>
+    <div data-beat="" data-full="1" style="max-width: 46rem; margin: 0 auto 1.7rem;">
+      <div style="display: flex; flex-direction: column; height: 100%; box-sizing: border-box; background: #edeae2; color: #201f1d; border: 1px solid rgba(32,31,29,0.3); padding: clamp(1rem, 2.6vh, 2.2rem) clamp(1.1rem, 3vw, 3rem); text-align: center; font-family: 'Cormorant Garamond', Georgia, serif;">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding-right: 12rem; font-family: 'Lora', Georgia, serif; font-size: clamp(0.5rem, 0.72vw, 0.68rem); letter-spacing: 0.18em; text-transform: uppercase; color: #4a4741; font-variant-numeric: tabular-nums;">
+          <span>Vol. XCVII — No. 214</span>
+          <span>Tomorrow Morning</span>
+          <span>Late Edition</span>
+        </div>
+        <div style="height: 3px; background: rgba(32,31,29,0.85); margin: 0.5rem 0 0.6rem;"></div>
+        <div style="font-weight: 400; font-size: clamp(2rem, 6.4vw, 5rem); line-height: 1; letter-spacing: 0.02em;">The Morning Ledger</div>
+        <div style="height: 1px; background: rgba(32,31,29,0.5); margin: 0.55rem 0 3px;"></div>
+        <div style="height: 3px; background: rgba(32,31,29,0.85);"></div>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 0.9rem; margin: clamp(0.8rem, 2.4vh, 1.8rem) 0 clamp(0.6rem, 1.8vh, 1.2rem);">
+          <span style="height: 1px; flex: 1; background: rgba(32,31,29,0.25);"></span>
+          <span style="font-family: 'Lora', Georgia, serif; font-size: clamp(0.56rem, 0.8vw, 0.78rem); letter-spacing: 0.4em; text-transform: uppercase; color: #8f6526; white-space: nowrap;">Breaking News</span>
+          <span style="height: 1px; flex: 1; background: rgba(32,31,29,0.25);"></span>
+        </div>
+        <div style="font-weight: 300; font-size: clamp(1.6rem, 4.6vw, 3.6rem); line-height: 1.08; max-width: 22ch; margin: 0 auto; text-wrap: pretty;">Economist thinks green is an appropriate colour to announce the next global financial crisis in.</div>
+        <div style="font-family: 'Lora', Georgia, serif; font-style: italic; font-size: clamp(0.6rem, 0.9vw, 0.85rem); color: #4a4741; margin: clamp(0.6rem, 1.8vh, 1.1rem) 0 0;">By our Economics Correspondent</div>
+        <div style="height: 1px; background: rgba(32,31,29,0.5); margin: clamp(0.6rem, 1.8vh, 1.2rem) 0 clamp(0.6rem, 1.6vh, 1rem);"></div>
+        <div style="flex: 1; min-height: 0; height: 4.5rem; overflow: hidden; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 clamp(0.7rem, 1.6vw, 1.4rem);">
+          <div style="background: repeating-linear-gradient(to bottom, rgba(32,31,29,0.26) 0 1px, transparent 1px 10px); border-right: 1px solid rgba(32,31,29,0.18);"></div>
+          <div style="background: repeating-linear-gradient(to bottom, rgba(32,31,29,0.26) 0 1px, transparent 1px 10px); border-right: 1px solid rgba(32,31,29,0.18);"></div>
+          <div style="background: repeating-linear-gradient(to bottom, rgba(32,31,29,0.26) 0 1px, transparent 1px 10px); border-right: 1px solid rgba(32,31,29,0.18);"></div>
+          <div style="background: repeating-linear-gradient(to bottom, rgba(32,31,29,0.26) 0 1px, transparent 1px 10px);"></div>
+        </div>
+      </div>
+    </div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;"><span data-om-marks="" style="position: relative; display: block; height: 0;"><svg viewBox="0 0 120 200" aria-hidden="true" style="position: absolute; left: 106%; top: -1rem; width: clamp(4rem, 9vw, 7.5rem); height: auto; overflow: visible; pointer-events: none; opacity: 0.9;"><g fill="none" stroke="#b68235" stroke-linecap="round"><path d="M26 14 C 31 55, 30 92, 24 128" stroke-width="7"></path><path d="M24 128 C 29 92, 30 55, 27 16" stroke-width="3" opacity="0.55"></path><path d="M21 158 C 24 163, 25 168, 22 172" stroke-width="8"></path><path d="M88 26 C 92 62, 91 96, 86 130" stroke-width="6" transform="rotate(9 88 78)"></path><path d="M86 130 C 91 96, 92 62, 89 28" stroke-width="2.5" opacity="0.5" transform="rotate(9 88 78)"></path><path d="M81 160 C 84 165, 85 170, 82 174" stroke-width="7.5" transform="rotate(9 83 167)"></path></g></svg></span>It was like the Obama tan suit controversy, but worse. Because it <span style="position: relative; display: inline-block; white-space: nowrap;">included me<svg viewBox="0 0 200 22" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; left: -4%; bottom: -0.55em; width: 108%; height: 0.72em; overflow: visible; pointer-events: none;"><path d="M3 12 C 28 5, 61 17, 92 9 C 121 2, 156 15, 196 7" fill="none" stroke="#b68235" stroke-width="2.4" stroke-linecap="round"></path><path d="M10 17 C 44 12, 74 20, 108 13 C 140 7, 168 18, 190 13" fill="none" stroke="#b68235" stroke-width="1.5" stroke-linecap="round" opacity="0.65"></path></svg></span>.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;"><span data-om-marks="" style="position: static; display: block; height: 0;"><img src="art/trophy-smart.webp" alt="Hand-drawn trophy with the word Smart! written on it" style="position: absolute; left: calc(100% + (100vw - 100%) / 4); top: 50%;  max-height: 72vh; object-fit: contain; height: auto; pointer-events: none; transform: translate(-50%, -50%) rotate(-6deg);"></span>I sit on my perch on the pretty stage, looking down at the hundreds of eyes. The bodies all meld into one black blob, but I know who they belong to. Heads of State, Scientists, Defence Personnel, all thinking the same thing. Why are we wasting our time listening to someone who hasn’t received a Nobel Prize, or any major accolade, for that matter?</div>
+    <img data-om-art="" src="art/crash-sequence-sm.webp" alt="Hand-drawn racing car in three frames, tipping and flipping, with the word Crash scrawled beside it" data-free="1" data-band="1" data-l="0" data-b="0" data-w="100vw" data-op="1" data-delay="1" data-clip-at="0,1,4" style="display: none;">
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">Deep within the crowd, I see a movement of hair that looks just like Scott’s. My heart skips a beat and my insides scream: he’s here!! I lean forward, putting my hand above my eyebrow, attempting to focus onto the spot within the crowd. My eyes are squinted into small lines, but the moment is gone. He’s not there. I sigh as my heart returns to its sinus rhythm.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">The small jump of excitement I had just experienced deeply troubles me. Did I want him to be here? He had come to all my symposiums. He had never missed one. My heart had a melancholy throb that I had not experienced in a long time. God, I miss him.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem; text-align: left;">“Maxine?”</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I look up, and see the moderator looking at me expectantly. It’s my time to speak.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I clear my throat and stand up, stepping carefully towards the lectern. My speech races through my mind, my subconscious rehearsing it one last time.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem; text-align: center;" data-keepmid="1">The lights make my skin a sick-looking paste colour.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 3.4rem; font-style: italic; text-align: right;" data-solo="1" data-solo-wash="1">I wish there were more people in the crowd.</div>
+  </section>
+
+  <section data-part="2">
+    <img data-om-art="" src="art/wash-funeral-sm.webp" alt="" data-wash="1" data-l="0" data-t="0" data-w="100vw" data-op="0.6" data-delay="8" data-ramp="6" style="display: none;">
+    <img data-om-art="" src="art/town-hall-sm.webp" alt="Watercolour drawing of the town hall" data-r="2vw" data-t="9vh" data-h="76vh" data-op="0.92" data-until="6" style="display: none;">
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I sit on the wooden pew and listen as person after person stands on the stage and tells a story that is vaguely true. Remember how fiercely protective he was, and when he pulled that gun on that guy? Remember that time we arrived at the art gallery for the awards night, but a week too late? Or when he left the tennis rackets on top of the car, and then the car behind ran over it!</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem; font-style: italic; text-align: right;">Ha! Ha! Isn’t his incompetence so funny?</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">The crowd gives a sombre, reminiscent chuckle. My mother-in-law, sat next to me, smiles and wipes away a tear. She clutches at my arm.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem; text-align: left;">“We were so lucky to know him, weren’t we, Maxine?”</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I nod mutely in response.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I wish these people would tell some better stories. I hate when people try and be humorous at funerals. Someone has died, for God’s sake. My husband has died. I felt like standing up and screaming:</div>
+    <div data-beat="" style="max-width: 46rem; margin: 0 auto 1.7rem; font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.2; letter-spacing: 0.04em; text-align: center;" data-solo="1">“DOES ANYONE HAVE A POSITIVE STORY?”</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;"><span data-om-marks="" style="position: static; display: block; height: 0;"><img src="art/money.webp" alt="Hand-drawn twenty and fifty dollar notes scattered with coins" style="position: absolute; left: calc(100% + (100vw - 100%) / 4); top: 50%;  max-height: 72vh; object-fit: contain; height: auto; pointer-events: none; transform: translate(-50%, -50%);"></span><span data-pg-italic="">I’ll stand upon the stage and bargain like an auctioneer. Anyone? Anyone? Do we have Scott helping someone for $50? Anyone? At the back! Scott being a leader for $100!</span><br>Instead, I sit on the wooden pew and let the monotone wash over me, the filtered memories creating a cosy insulation.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;"><span data-om-marks="" style="position: static; display: block; height: 0;"><img src="art/rip-scott.webp" alt="Rest in Peace Scott Davies, hand-lettered with a leaf" style="position: absolute; left: 105%; top: 50%; max-height: 72vh; object-fit: contain; height: auto; pointer-events: none; transform: translate(-50%, -50%);"></span>I remember, too. But the memories that dance within my mind are tainted with muddy ochre, an ugly reminiscing I would rather avoid. His enlarged printed face smiles down at me from atop his coffin, with “Rest in Peace, Scott Davies” written in cursive across the print.<br>I glare at the print. Oh, I remember, Scott.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I remember when you had flown to a Southeast Asian land, and I hadn’t heard from you in weeks. I can imagine the darkened rooms you found yourself in, the flesh you touched. The vile, demeaning things you said to those women.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;"><span data-om-marks="" style="position: static; display: block; height: 0;"><img src="art/present.webp" alt="Hand-drawn wrapped present with a tag reading To: Bitch, From: Scott" style="position: absolute; left: 105%; top: 50%; max-height: 72vh; object-fit: contain; height: auto; pointer-events: none; transform: translate(-50%, -50%);"></span>I remember your begrudging attitude towards buying me a gift. Your instant snicker after I opened it, wrapped with the reminder that I would have gotten something nicer if I hadn’t been a bitch.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I remember the names you called me, and the subtle attacks veiled as jokes.<br>I shake my head and look at the notes I had neatly printed onto cardstock. I let the anger at our inconsequential conclusion fade, comforted by the memory of us sitting together on the couch. I remind myself that for every bad memory, there’s ten good ones. It’ll be my turn to tell a vaguely true story next. Mine is about meeting the love of my life, and the joy of being married.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem; font-style: italic; text-align: right;">Isn’t karma so funny?</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;" data-solo-wash="0.75"><span data-om-marks="" style="position: static; display: block; height: 0;"><img src="art/widow-grave.webp" alt="Hand-drawn woman in a hat standing beside a grave marked RIP, a hand reaching up out of the ground" style="position: absolute; left: calc(100% + (100vw - 100%) / 4); top: 50%;  max-height: 72vh; object-fit: contain; height: auto; pointer-events: none; transform: translate(-50%, -50%);"></span>I thought the funeral would have been grander, with calla lilies gracing every surface. I imagined everyone would attend in black, with lace veils across their eyes and velvet gloves. His father is wearing a blue polo shirt! I couldn’t believe it, when I saw him walk into the room. I also would have liked to give Scott a marble headstone, with some ancient script along the top. I wish I had been granted access to his “our” bank accounts earlier, so I could have made it a more glamorous event. My thick skirt, handkerchief and boots now felt silly, surrounded by everyone else’s informality.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 3.4rem; font-style: italic; text-align: right;" data-solo="1" data-solo-wash="0.75">I had hoped it would rain.</div>
+  </section>
+
+  <section data-part="3">
+    <img data-om-art="" src="art/handprints-sm.webp" alt="" data-l="0" data-t="0" data-w="100vw" data-pos="50% 44%" data-op="0.95" data-delay="12" data-ramp="3" style="display: none;">
+    <img data-om-art="" src="art/hate-this-town-sm.webp" alt="The words I hate this town, hand-lettered in black and red" data-r="2vw" data-t="13vh" data-w="42vw" data-op="1" data-until="1" style="display: none;">
+    <img data-om-art="" src="art/stirling-terrace-sm.webp" alt="Watercolour drawing of the shopfronts along the main street" data-r="0" data-b="0" data-w="58vw" data-op="0.95" data-until="1" style="display: none;">
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">Happiness floats over the mountains, down the valley, through the town centre and into the polluted waterways, accessed by the small drain opposite my house. It never stops to say hello. My neighbours have it on subscription, parcel delivered every fortnight. I’m not sure how to get on the mailing list.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I know my neighbours have it. I can tell by the way they park their cars, bring in their shopping, greet each other after a day of work. I can tell by the way their kids squeal on the weekend, as if they are having fun. The noise outside is deafening. Squeals, screams, laughs. An awful bird has nested in the singular tree in our backyard.</div>
+    <img data-om-art="" src="art/bird-sm.webp" alt="Watercolour kingfisher perched on a bare branch" data-free="1" data-l="2vw" data-b="0" data-h="52vh" data-op="1" data-until="2" style="display: none;">
+    <div data-beat="" data-spread="1" data-top="16vh" style="max-width: none; width: 100%; margin: 0 auto 1.7rem; padding-right: 4vw; box-sizing: border-box; display: grid; grid-template-columns: repeat(3, 1fr); font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: clamp(1.8rem, 4vw, 3rem); text-align: center;"><span>Coo.</span></div>
+    <img data-om-art="" src="art/bird-sm.webp" alt="Watercolour kingfisher perched on a bare branch" data-free="1" data-l="35vw" data-b="0" data-h="52vh" data-op="1" data-until="1" style="display: none;">
+    <div data-beat="" data-spread="1" data-top="16vh" style="max-width: none; width: 100%; margin: 0 auto 1.7rem; padding-right: 4vw; box-sizing: border-box; display: grid; grid-template-columns: repeat(3, 1fr); font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: clamp(1.8rem, 4vw, 3rem); text-align: center;"><span>Coo.</span><span>Coo.</span></div>
+    <img data-om-art="" src="art/bird-sm.webp" alt="Watercolour kingfisher perched on a bare branch" data-free="1" data-l="68vw" data-b="0" data-h="52vh" data-op="1" data-until="0" style="display: none;">
+    <div data-beat="" data-spread="1" data-top="16vh" style="max-width: none; width: 100%; margin: 0 auto 1.7rem; padding-right: 4vw; box-sizing: border-box; display: grid; grid-template-columns: repeat(3, 1fr); font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: clamp(1.8rem, 4vw, 3rem); text-align: center;"><span>Coo.</span><span>Coo.</span><span>Coo.</span></div>
+    <img data-om-art="" src="art/gun-sm.webp" alt="A gun scrawled in red marker, firing three shots" data-l="56vw" data-b="40vh" data-w="24vw" data-op="1" data-until="0" style="display: none;">
+    <img data-om-art="" src="art/kingfisher-sm.webp" alt="Watercolour kingfisher hung by a rope noose" data-r="3vw" data-b="0" data-h="44vh" data-op="1" data-until="0" style="display: none;">
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem; text-align: left; font-size: 1rem; color: #8f6526; font-variant-numeric: tabular-nums;">Google: Fine for killing a native bird<br>Google: The quietest way to kill a bird<br>Google: Can animals go in the green bin?</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">The clock in the kitchen, recently installed, ticks an irritating rhythm. It echoes throughout the entire house. I can hear it when I’m trying to fall asleep, from my bedroom upstairs. I can hear it with the doors closed. I sometimes wonder if I can actually hear it, or if it’s my mind playing deadly tricks. I sit up, closing my eyes, listening intently. Nope, it’s unmistakable, I can definitely hear it.</div>
+    <img data-om-art="" src="art/clock-1.webp" alt="A clock face drawn in red marker" data-free="1" data-l="6vw" data-b="0" data-w="24vw" data-op="1" data-until="2" style="display: none;">
+    <div data-beat="" data-spread="1" data-top="16vh" style="max-width: none; width: 100%; margin: 0 auto 1.7rem; box-sizing: border-box; display: grid; grid-template-columns: repeat(3, 1fr); font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: clamp(1.8rem, 4vw, 3rem); text-align: center;"><span>Tick.</span></div>
+    <img data-om-art="" src="art/clock-2.webp" alt="A clock face drawn in red marker" data-free="1" data-l="38vw" data-b="0" data-w="24vw" data-op="1" data-until="1" style="display: none;">
+    <div data-beat="" data-spread="1" data-top="16vh" style="max-width: none; width: 100%; margin: 0 auto 1.7rem; box-sizing: border-box; display: grid; grid-template-columns: repeat(3, 1fr); font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: clamp(1.8rem, 4vw, 3rem); text-align: center;"><span>Tick.</span><span>Tick.</span></div>
+    <img data-om-art="" src="art/clock-3.webp" alt="A clock face drawn in red marker" data-free="1" data-l="70vw" data-b="0" data-w="24vw" data-op="1" data-until="0" style="display: none;">
+    <div data-beat="" data-spread="1" data-top="16vh" style="max-width: none; width: 100%; margin: 0 auto 1.7rem; box-sizing: border-box; display: grid; grid-template-columns: repeat(3, 1fr); font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: clamp(1.8rem, 4vw, 3rem); text-align: center;"><span>Tick.</span><span>Tick.</span><span>Tick.</span></div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">Scott is due to arrive home any minute now. Dinner is placed delicately on the table. Roast potatoes with rosemary from the garden, and a small pile of blush-coloured beef, and chargrilled broccolini, and mashed sweet potato, and butter-covered brussels sprouts. Looking at the dinner makes me irritated. My insides have been bubbling lately, my hands constantly clenched. The irritation comes from the unshakable feeling that tomorrow I’ll have to do it all again.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">I hear the door click and turn in time to see him walk through the door.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">“Hello, Maxy!” he says, his fingers and face covered with flecks of Earth. He leaves five perfect fingerprints on the door as he closes it.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">“Hey, honey!” I walk over and give him a kiss, keeping my hand firmly placed on his chest, to not blacken my shirt. He wanders into the dining room, observing the dinner and picking up a piece of meat with his fingers. I take mental note to eat from the opposite side of the plate, so as not to consume any chemicals left behind from God-knows-what was on his hands.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 1.7rem;">“The kitchen is a mess!” he turns to me, a big grin on his face. His version of a joke. I feel my hands instinctively wrap around the carving knife, left upon the bench.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto 3.4rem;">Within three steps, I am by his side. <br>And, with one more step, I’m in his side.</div>
+  </section>
+
+  <section data-part="4">
+    <div data-beat="" data-pg-join="1" style="max-width: 40rem; margin: 0 auto 3.4rem; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(2.1rem, 5.4vw, 3.9rem); line-height: 1.14; text-align: center; text-wrap: pretty;">I would like to be young again.</div>
+    <div data-beat="" style="max-width: 34rem; margin: 0 auto; text-align: center;">
+      <div style="width: 56px; height: 1px; background: #b68235; margin: 0 auto 1.6rem;"></div>
+      <img src="art/boat-man-sm.webp" alt="Watercolour and ink drawing of a marlin leaping beside a man fishing from a wooden boat" style="display: block; width: auto; max-width: min(100%, 17rem); max-height: 34vh; height: auto; margin: 0 auto 1.4rem; mix-blend-mode: multiply;">
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; color: #b68235;">Colophon</div>
+      <p style="text-align: center; margin: 0.7rem 0 1.4rem;">Story and artwork by Jasmine Peart. <a href="https://mariestudio.com.au" target="_blank" rel="noopener">mariestudio.com.au</a></p>
+      <p style="text-align: center; font-size: 0.95rem; color: #504d48; margin: 0;">Artificial intelligence (Claude) was used for assistance to build this interactive web version of the story. <br>The writing and the drawings are the author’s own.</p>
+    </div>
+  </section>
+
+  <nav data-om-bar="" style="display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; align-items: center; gap: 18px; padding: 14px 22px; background: linear-gradient(to top, rgba(243,242,242,0.96), rgba(243,242,242,0));">
+    <div data-om-label="" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.82rem; letter-spacing: 0.18em; text-transform: uppercase; color: #6b6863; min-width: 11ch; font-variant-numeric: tabular-nums;"></div>
+    <div style="flex: 1; height: 1px; background: rgba(32,31,29,0.18); position: relative;"><div data-om-fill="" style="position: absolute; left: 0; top: 0; bottom: 0; width: 0%; background: #b68235; transition: width 0.5s ease;"></div></div>
+    <div data-om-btn="" data-om-start="" role="button" tabindex="0" aria-label="Back to start" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase; color: #6b6863; border: 1px solid rgba(32,31,29,0.18); border-radius: 4px; padding: 6px 12px; cursor: pointer;">Start</div>
+    <div data-om-btn="" data-om-prev="" role="button" tabindex="0" aria-label="Previous" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase; color: #6b6863; border: 1px solid rgba(32,31,29,0.18); border-radius: 4px; padding: 6px 12px; cursor: pointer;">Back</div>
+    <div data-om-btn="" data-om-next="" role="button" tabindex="0" aria-label="Next" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase; color: #201f1d; border: 1px solid #b68235; border-radius: 4px; padding: 6px 14px; cursor: pointer;">Next</div>
+  </nav>
+
+  <div data-om-hint="" style="display: none; position: fixed; left: 50%; bottom: 76px; transform: translateX(-50%); z-index: 30; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 0.85rem; letter-spacing: 0.16em; text-transform: uppercase; color: #8b8781;">Click anywhere to continue</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;startMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;slides&quot;,&quot;page&quot;],&quot;default&quot;:&quot;slides&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Reading&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    this.stage = this.props.startMode !== "page";
+    this.__booted = false;
+    const run = () => { if (this.__booted) return; this.__booted = true; this.boot(); };
+    setTimeout(run, 0);
+    requestAnimationFrame(run);
+  }
+
+  renderVals() { return {}; }
+
+  boot() {
+    const root = document.querySelector("[data-om-root]");
+    if (!root) return;
+    this.root = root;
+    this.beats = Array.from(root.querySelectorAll("[data-beat]"));
+    this.arts = Array.from(root.querySelectorAll("[data-om-art]"));
+    this.title = root.querySelector("[data-om-titlecard]");
+    this.bar = root.querySelector("[data-om-bar]");
+    this.hint = root.querySelector("[data-om-hint]");
+    this.toggle = root.querySelector("[data-om-toggle]");
+    this.fill = root.querySelector("[data-om-fill]");
+    this.label = root.querySelector("[data-om-label]");
+    if (!this.beats.length) return;
+
+    this.parts = ["", "The Symposium", "The Funeral", "This Town", ""];
+    this.arts.forEach((a) => {
+      a.__reveal = this.beats.findIndex((b) => a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING);
+      if (a.__reveal < 0) a.__reveal = this.beats.length - 1;
+      if (a.dataset.delay) a.__reveal = Math.min(a.__reveal + Number(a.dataset.delay), this.beats.length - 1);
+      a.__part = (a.closest("[data-part]") || {}).dataset ? a.closest("[data-part]").dataset.part : "0";
+    });
+    this.beats.forEach((b) => {
+      b.__part = (b.closest("[data-part]") || root).dataset.part || "0";
+      b.__m0 = b.style.margin;
+    });
+    this.arts.forEach((a) => { a.__m0 = a.style.margin; });
+
+    let saved = 0;
+    try { saved = parseInt(sessionStorage.getItem("maxine.beat") || "0", 10) || 0; } catch (e) {}
+    this.i = Math.min(Math.max(saved, 0), this.beats.length - 1);
+
+    this.toggle.style.display = "block";
+    this.toggle.addEventListener("click", (e) => { e.stopPropagation(); this.setMode(!this.stage); });
+    root.addEventListener("click", (e) => {
+      if (!this.stage) return;
+      if (e.target.closest("[data-om-btn]") || e.target.closest("[data-om-toggle]")) return;
+      this.go(1);
+    });
+    root.querySelector("[data-om-next]").addEventListener("click", (e) => { e.stopPropagation(); this.go(1); });
+    root.querySelector("[data-om-prev]").addEventListener("click", (e) => { e.stopPropagation(); this.go(-1); });
+    root.querySelector("[data-om-start]").addEventListener("click", (e) => { e.stopPropagation(); this.go(-this.i); });
+    this.onKey = (e) => {
+      if (!this.stage) return;
+      if (e.key === "ArrowRight" || e.key === " " || e.key === "Enter") { e.preventDefault(); this.go(1); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); this.go(-1); }
+    };
+    window.addEventListener("keydown", this.onKey);
+    this.onResize = () => { if (this.stage) this.layout(); else this.pageFormat(true); };
+    window.addEventListener("resize", this.onResize);
+
+    this.setMode(this.stage);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("keydown", this.onKey);
+    window.removeEventListener("resize", this.onResize);
+  }
+
+  narrow() { return window.innerWidth < 860; }
+
+  setMode(stage) {
+    this.stage = stage;
+    this.toggle.textContent = stage ? "Read as one page" : "Read as slides";
+    Array.from(this.root.querySelectorAll("[data-om-marks]")).forEach((m) => {
+      m.style.display = stage ? "block" : "none";
+    });
+    if (stage) { this.layout(); this.paint(); }
+    else this.unlayout();
+  }
+
+  unlayout() {
+    const r = this.root;
+    r.style.height = "";
+    r.style.overflow = "";
+    r.style.cursor = "";
+    r.style.padding = "7vh 6vw 12vh";
+    this.title.style.display = "";
+    this.bar.style.display = "none";
+    this.hint.style.display = "none";
+    this.beats.forEach((b) => {
+      b.style.position = "";
+      b.style.left = b.style.top = b.style.width = b.style.transform = "";
+      b.style.opacity = "";
+      b.style.pointerEvents = "";
+      b.style.visibility = "";
+      b.style.margin = b.__m0 === undefined ? "" : b.__m0;
+      b.style.transition = "";
+      b.style.zIndex = "";
+      b.style.maxHeight = "";
+      b.style.background = "";
+      b.style.overflowY = "";
+      b.style.paddingBottom = "";
+      b.style.height = "";
+      b.style.maxWidth = "";
+      b.style.padding = "";
+      b.style.boxSizing = "";
+      b.style.display = b.hasAttribute("data-titlebeat") ? "none" : "";
+    });
+    this.arts.forEach((a) => {
+      a.style.position = "";
+      a.style.left = a.style.right = a.style.top = a.style.bottom = a.style.width = a.style.height = "";
+      a.style.opacity = "";
+      a.style.zIndex = "";
+      a.style.pointerEvents = "";
+      a.style.transition = "";
+      a.style.clipPath = "";
+      a.style.objectFit = "";
+      a.style.maxWidth = "";
+      a.style.margin = a.__m0 === undefined ? "" : a.__m0;
+      if (a.getAttribute("alt")) {
+        a.style.display = "block";
+        a.style.margin = "2.4rem auto";
+        a.style.maxWidth = "min(100%, 34rem)";
+        a.style.height = "auto";
+      } else {
+        a.style.display = "none";
+      }
+    });
+    this.pageFormat(true);
+  }
+
+  pageFormat(on) {
+    const r = this.root;
+    const wide = window.innerWidth >= 1100;
+    const sections = Array.from(r.querySelectorAll("section[data-part]"));
+    const markImgs = Array.from(r.querySelectorAll("[data-om-marks] img"));
+    markImgs.forEach((im) => { if (im.__css === undefined) im.__css = im.style.cssText; });
+    if (!on) {
+      sections.forEach((s) => { s.style.maxWidth = ""; s.style.margin = ""; });
+      r.querySelectorAll("[data-om-parthead]").forEach((h) => { h.style.display = "none"; });
+      this.beats.forEach((b) => {
+        b.style.textIndent = "";
+        b.style.clear = "";
+        if (b.__pg) Object.keys(b.__pg).forEach((k) => { b.style[k] = b.__pg[k]; });
+        Array.from(b.children).forEach((c) => { if (c.__d !== undefined) c.style.display = c.__d; });
+      });
+      r.querySelectorAll("[data-pg-italic]").forEach((e) => { e.style.fontStyle = ""; });
+      this.arts.forEach((a) => { a.style.float = ""; a.style.clear = ""; });
+      markImgs.forEach((im) => { im.style.cssText = im.__css; });
+      return;
+    }
+    const side = (el) => {
+      el.style.position = "static";
+      el.style.display = "block";
+      el.style.float = "right";
+      el.style.clear = "right";
+      el.style.transform = "none";
+      el.style.left = el.style.top = "";
+      el.style.height = "auto";
+      el.style.maxHeight = "16rem";
+      el.style.objectFit = "contain";
+      el.style.opacity = "1";
+      el.style.textIndent = "0";
+      if (wide) {
+        el.style.width = "11rem";
+        el.style.maxWidth = "11rem";
+        el.style.margin = "0.4rem -14rem 1.2rem 1.5rem";
+      } else {
+        el.style.width = "min(32%, 10rem)";
+        el.style.maxWidth = "10rem";
+        el.style.margin = "0.4rem 0 1rem 1.2rem";
+      }
+    };
+    sections.forEach((s) => {
+      const k = Number(s.dataset.part);
+      s.style.maxWidth = "36rem";
+      s.style.margin = "0 auto";
+      if (!k) return;
+      let h = s.querySelector("[data-om-parthead]");
+      if (!h) {
+        h = document.createElement("div");
+        h.setAttribute("data-om-parthead", "");
+        h.style.cssText = "clear: both; height: 0; border-top: 1px solid rgba(32,31,29,0.35); margin: 2.4rem 0 2.2rem;";
+        const join = s.querySelector("[data-pg-join]");
+        s.insertBefore(h, join ? join.nextSibling : s.firstChild);
+      }
+      h.style.display = "block";
+    });
+    const rules = [["Ha! Ha!", "right", "italic"], ["Isn’t karma", "right", "normal"], ["Google:", "right", "normal"], ["I wish these people", "left", "italic"]];
+    const keys = ["fontWeight", "textWrap", "fontSize", "fontFamily", "fontStyle", "textAlign", "color", "display", "padding", "letterSpacing", "lineHeight", "width"];
+    this.beats.forEach((b) => {
+      if (b.hasAttribute("data-titlebeat")) return;
+      const st = b.style;
+      st.maxWidth = "none";
+      st.textIndent = "0";
+      if (b.hasAttribute("data-full") || (b.closest("[data-part='4']") && !b.hasAttribute("data-pg-join"))) { st.margin = "1.4rem 0"; return; }
+      if (!b.__pg) { b.__pg = {}; keys.forEach((k) => { b.__pg[k] = st[k]; }); }
+      st.fontWeight = st.textWrap = "";
+      st.fontSize = st.fontFamily = st.color = st.padding = st.letterSpacing = st.lineHeight = st.width = "";
+      st.display = "block";
+      st.margin = "0 0 1.05em";
+      const txt = b.textContent.trim();
+      const rule = rules.find((x) => txt.startsWith(x[0]));
+      st.textAlign = rule ? rule[1] : "left";
+      st.fontStyle = rule ? rule[2] : "normal";
+      if (b.hasAttribute("data-spread")) {
+        const spans = Array.from(b.children).filter((c) => c.tagName === "SPAN");
+        spans.forEach((sp, j) => { if (sp.__d === undefined) sp.__d = sp.style.display; sp.style.display = j === spans.length - 1 ? "" : "none"; });
+        st.textAlign = ["left", "center", "right"][Math.min(spans.length, 3) - 1];
+        st.fontStyle = /Tick/.test(txt) ? "italic" : "normal";
+        st.margin = "0 0 0.15em";
+      }
+      st.clear = !wide && (st.textAlign !== "left" || b.hasAttribute("data-spread")) ? "right" : "";
+    });
+    r.querySelectorAll("[data-pg-italic]").forEach((e) => { e.style.fontStyle = "italic"; });
+    const seen = new Set();
+    this.arts.forEach((a) => {
+      if (!a.getAttribute("alt")) return;
+      const src = a.getAttribute("src").replace(/-\d+(\.\w+)$/, "$1");
+      if (seen.has(src)) { a.style.display = "none"; return; }
+      seen.add(src);
+      side(a);
+    });
+    r.querySelectorAll("[data-om-marks]").forEach((m) => {
+      if (m.querySelector("img")) {
+        m.style.display = "contents";
+        m.querySelectorAll("svg").forEach((s) => { s.style.display = "none"; });
+      }
+    });
+    markImgs.forEach(side);
+  }
+
+  layout() {
+    this.pageFormat(false);
+    const r = this.root;
+    const n = this.narrow();
+    r.style.height = "100vh";
+    r.style.overflow = "hidden";
+    r.style.cursor = "pointer";
+    r.style.padding = "0";
+    this.title.style.display = "none";
+    this.bar.style.display = "flex";
+    this.hint.style.display = "block";
+
+    this.beats.forEach((b) => {
+      const big = b.style.textAlign === "center";
+      if (b.__m0 === undefined) b.__m0 = b.style.margin;
+      b.style.display = "";
+      b.style.position = "fixed";
+      b.style.margin = "0";
+      b.style.transition = "opacity 0.7s ease";
+      b.style.zIndex = "20";
+      if (big || n) {
+        b.style.left = "50%";
+        b.style.top = "46%";
+        b.style.transform = "translate(-50%, -50%)";
+        b.style.width = n ? "86vw" : "min(44rem, 82vw)";
+      } else {
+        b.style.left = "7vw";
+        b.style.top = "48%";
+        b.style.transform = "translateY(-50%)";
+        b.style.width = "min(33rem, 46vw)";
+      }
+      b.style.pointerEvents = "none";
+      if (b.dataset.top) {
+        b.style.left = "50%";
+        b.style.top = b.dataset.top;
+        b.style.transform = "translateX(-50%)";
+        b.style.width = n ? "90vw" : "min(46rem, 92vw)";
+      }
+      if (b.hasAttribute("data-spread")) {
+        b.style.display = "grid";
+        b.style.width = "100%";
+      }
+      if (b.hasAttribute("data-full")) {
+        b.style.left = "0px";
+        b.style.top = "0px";
+        b.style.transform = "none";
+        b.style.width = "100vw";
+        b.style.maxWidth = "none";
+        b.style.height = "100vh";
+        b.style.boxSizing = "border-box";
+        b.style.padding = n ? "2.5vh 4vw 88px" : "4vh 5vw 94px";
+        b.style.zIndex = "22";
+      }
+      if (b.querySelector("img:not([data-om-marks] img)")) {
+        b.style.background = "#f3f2f2";
+        b.style.maxHeight = "calc(100vh - 130px)";
+        b.style.overflowY = "auto";
+        b.style.paddingBottom = "8px";
+        b.style.pointerEvents = "auto";
+        b.style.top = "42%";
+      }
+      b.__top = b.style.top;
+      b.__tf = b.style.transform;
+    });
+
+    this.arts.forEach((a) => {
+      const d = a.dataset;
+      if (a.__m0 === undefined) a.__m0 = a.style.margin;
+      a.style.display = "block";
+      a.style.position = "fixed";
+      a.style.margin = "0";
+      a.style.maxWidth = "none";
+      a.style.zIndex = a.dataset.wash ? "3" : "5";
+      a.style.pointerEvents = "none";
+      a.style.transition = "opacity 1.1s ease";
+      const u = (v) => (v && /^-?[\d.]+$/.test(v) ? v + "px" : v);
+      const L = u(d.l), R = u(d.r), T = u(d.t), B = u(d.b), W = u(d.w), H = u(d.h);
+      const ground = !a.getAttribute("alt");
+      const free = !!d.free;
+      if (ground) {
+        a.style.left = "0px";
+        a.style.top = "0px";
+        a.style.right = a.style.bottom = "auto";
+        a.style.width = "100vw";
+        a.style.height = "100vh";
+        a.style.objectFit = "cover";
+        a.style.objectPosition = d.pos || "50% 50%";
+      } else {
+        a.style.objectFit = "";
+        a.style.left = L ? (n || free ? L : "max(" + L + ", 500px)") : "auto";
+        a.style.right = R || "auto";
+        a.style.top = T ? "max(" + T + ", 68px)" : "auto";
+        a.style.bottom = B ? "max(" + B + ", 86px)" : "auto";
+        a.style.width = W
+          ? (n ? this.scale(W, 1.7)
+               : (L && !free ? "min(" + W + ", calc(100vw - max(" + L + ", 500px) - 10px))" : W))
+          : "auto";
+        a.style.height = H ? (n ? this.scale(H, 0.8) : H) : "auto";
+      }
+      if (d.band) {
+        a.style.width = "min(100vw, 128vh)";
+        a.style.height = "auto";
+        a.style.maxHeight = "none";
+        a.style.objectFit = "";
+        a.style.zIndex = "12";
+        a.style.filter = "saturate(1.25) brightness(1.07) contrast(1.03)";
+      }
+      a.__op = (parseFloat(d.op || "1") || 1) * (n ? 0.38 : 1);
+    });
+    this.paint();
+  }
+
+  scale(v, f) {
+    const m = /^([\d.]+)(\D+)$/.exec(v);
+    return m ? (parseFloat(m[1]) * f).toFixed(1) + m[2] : v;
+  }
+
+  go(step) {
+    const next = this.i + step;
+    if (next < 0 || next > this.beats.length - 1) return;
+    this.i = next;
+    try { sessionStorage.setItem("maxine.beat", String(this.i)); } catch (e) {}
+    this.paint();
+  }
+
+  paint() {
+    const cur = this.beats[this.i];
+    const part = cur.__part;
+    this.beats.forEach((b, k) => {
+      const on = k === this.i;
+      b.style.opacity = on ? "1" : "0";
+      b.style.visibility = on ? "visible" : "hidden";
+    });
+    if (this.stage) {
+      const rect = cur.getBoundingClientRect();
+      const space = window.innerWidth - rect.right;
+      cur.querySelectorAll("[data-om-marks] img").forEach((im) => {
+        im.style.left = (rect.width + space / 2).toFixed(0) + "px";
+        im.style.width = Math.max(0, space * 0.8).toFixed(0) + "px";
+      });
+    }
+    let bandOn = false;
+    this.arts.forEach((a) => {
+      const past = a.dataset.until ? this.i > a.__reveal + Number(a.dataset.until) : false;
+      const cur = this.beats[this.i];
+      const solo = cur && cur.hasAttribute("data-solo");
+      const soft = !!(cur && cur.hasAttribute("data-solo-wash") && a.dataset.wash);
+      const on = (!solo || soft) && a.__part === part && this.i >= a.__reveal && !past;
+      let op = (parseFloat(a.dataset.op || "1") || 1) * (this.stage ? 1 : 0.38);
+      if (soft) op = op * (parseFloat(cur.dataset.soloWash) || 0.35);
+      if (on && a.dataset.ramp) {
+        const steps = Number(a.dataset.ramp) || 1;
+        const t = Math.min(1, (this.i - a.__reveal) / steps);
+        op = op * (0.2 + 0.8 * t);
+      }
+      a.style.opacity = on ? String(op) : "0";
+      if (on && a.dataset.band) bandOn = true;
+      if (a.dataset.clipAt) {
+        const offs = a.dataset.clipAt.split(",").map(Number);
+        const last = offs[offs.length - 1];
+        const raw = (this.i - a.__reveal) / (last || 1);
+        const t = Math.max(0, Math.min(1, raw));
+        let shown = a.dataset.band ? 20 + 80 * t : 18 + 82 * t;
+        if (a.dataset.band && raw < 0) shown = 0;
+        if (a.dataset.band) {
+          const grad = "linear-gradient(to right, #000 0 40%, rgba(0,0,0,0) 44%)";
+          a.style.clipPath = "";
+          a.style.webkitMaskImage = grad;
+          a.style.maskImage = grad;
+          a.style.webkitMaskSize = a.style.maskSize = "300% 100%";
+          a.style.webkitMaskRepeat = a.style.maskRepeat = "no-repeat";
+          const p = ((120 - shown) / 2).toFixed(2) + "% 0";
+          a.style.webkitMaskPosition = p;
+          a.style.maskPosition = p;
+        } else {
+          a.style.clipPath = "inset(0 " + (100 - shown) + "% 0 0)";
+        }
+        a.style.transition = a.dataset.band
+          ? "opacity 1.6s cubic-bezier(0.4, 0, 0.2, 1), -webkit-mask-position 2.2s cubic-bezier(0.33, 0.85, 0.25, 1), mask-position 2.2s cubic-bezier(0.33, 0.85, 0.25, 1)"
+          : "opacity 1.1s ease, clip-path 1.6s cubic-bezier(0.33, 0.85, 0.25, 1)";
+      }
+    });
+    if (this.stage && cur && !cur.hasAttribute("data-full") && !cur.dataset.top && !cur.hasAttribute("data-spread")) {
+      if (bandOn && !cur.hasAttribute("data-keepmid")) {
+        cur.style.top = "8vh";
+        cur.style.transform = cur.style.left === "50%" ? "translateX(-50%)" : "none";
+      } else if (cur.__top !== undefined) {
+        cur.style.top = cur.__top;
+        cur.style.transform = cur.__tf;
+      }
+    }
+    const pct = ((this.i + 1) / this.beats.length) * 100;
+    this.fill.style.width = pct.toFixed(1) + "%";
+    this.label.textContent = this.parts[parseInt(part, 10)] || "";
+    this.hint.style.opacity = this.i === 0 ? "1" : "0";
+    this.hint.style.transition = "opacity 0.6s ease";
+  }
+}
+</script>
+</body>
+</html>
